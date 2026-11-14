@@ -3,16 +3,16 @@
 # Guro: A System Tool-kit for Real-time Monitoring and Analysis
 **Professional real-time monitoring, thermal analysis, and hardware benchmarking.**
 
-[![Python package](https://github.com/dhanushk-offl/guro/actions/workflows/python-package.yml/badge.svg)](https://github.com/dhanushk-offl/guro/actions/workflows/python-package.yml)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/dhanushk-offl/guro/badge)](https://scorecard.dev/viewer/?uri=github.com/dhanushk-offl/guro)
+[![Python package](https://github.com/d5v7/guro/actions/workflows/python-package.yml/badge.svg)](https://github.com/d5v7/guro/actions/workflows/python-package.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/d5v7/guro/badge)](https://scorecard.dev/viewer/?uri=github.com/d5v7/guro)
 
-[![Known Vulnerabilities](https://snyk.io/test/github/dhanushk-offl/guro/badge.svg)](https://snyk.io/test/github/dhanushk-offl/guro)
-[![CodeQL Advanced](https://github.com/dhanushk-offl/guro/actions/workflows/codeql.yml/badge.svg)](https://github.com/dhanushk-offl/guro/actions/workflows/codeql.yml)
+[![Known Vulnerabilities](https://snyk.io/test/github/d5v7/guro/badge.svg)](https://snyk.io/test/github/d5v7/guro)
+[![CodeQL Advanced](https://github.com/d5v7/guro/actions/workflows/codeql.yml/badge.svg)](https://github.com/d5v7/guro/actions/workflows/codeql.yml)
 [![PyPI version](https://img.shields.io/pypi/v/guro.svg)](https://pypi.org/project/guro/)
 [![Total Downloads](https://pepy.tech/badge/guro)](https://clickpy.clickhouse.com/dashboard/guro)
 [![Monthly Downloads](https://img.shields.io/pypi/dm/guro.svg?label=Monthly%20downloads)](https://pypi.org/project/guro/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/dhanushk-offl/guro.svg?style=social&label=Star&maxAge=2592000)](https://github.com/dhanushk-offl/guro)
+[![GitHub Stars](https://img.shields.io/github/stars/d5v7/guro.svg?style=social&label=Star&maxAge=2592000)](https://github.com/d5v7/guro)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg)](https://buymeacoffee.com/itzmedhanu)
 
 </div>
@@ -57,7 +57,7 @@ Real-time bandwidth monitoring with per-interface upload/download sparklines, TC
 
 ## Installation
 
-Current release: **1.1.7**. See the [detailed release notes](RELEASE_NOTES.md#v117--trustworthy-telemetry-bounded-benchmarks-and-diagnostics).
+Current release: **1.1.8**. See the [detailed release notes](RELEASE_NOTES.md#v118--github-username-update).
 
 Requires Python 3.9 or newer.
 
@@ -116,11 +116,11 @@ Temperature objects include `value` (null when unavailable), `unit`, `source`, `
 
 | Area | Description |
 | :--- | :--- |
-| **GPU Benchmarking** 🎮 | **⚠️ NEEDS CONTRIBUTORS!** — Native CUDA benchmarks for NVIDIA GPUs: compute performance, memory bandwidth, and thermal profiling. [Want to help?](https://github.com/dhanushk-offl/guro/issues) |
+| **GPU Benchmarking** 🎮 | **⚠️ NEEDS CONTRIBUTORS!** — Native CUDA benchmarks for NVIDIA GPUs: compute performance, memory bandwidth, and thermal profiling. [Want to help?](https://github.com/d5v7/guro/issues) |
 | **Network Diagnostics** 🌐 | ✅ **Done** — Live dashboard with bandwidth sparklines, adapter specs, TCP state analysis, and active connection tracking. |
 | **Storage I/O** 💾 | Real-time disk throughput, IOPS, and queue-depth monitoring for server environments. |
 
-Have a feature in mind? [Open an issue](https://github.com/dhanushk-offl/guro/issues) or start a discussion — every idea counts.
+Have a feature in mind? [Open an issue](https://github.com/d5v7/guro/issues) or start a discussion — every idea counts.
 
 ### 💖 Why Funding Matters
 
@@ -136,11 +136,11 @@ Guro is an open-source project that adheres to professional development standard
 - **Developer Guide**: Comprehensive guidelines can be found in [CONTRIBUTING.md](CONTRIBUTING.md).
 - **Architecture**: In-depth module analysis is available in the project documentation.
 - **License**: Released under the MIT License.
-- **Support**: [GitHub Sponsors](https://github.com/sponsors/dhanushk-offl) · [Buy Me A Coffee](https://buymeacoffee.com/itzmedhanu)
+- **Support**: [GitHub Sponsors](https://github.com/sponsors/d5v7) · [Buy Me A Coffee](https://buymeacoffee.com/itzmedhanu)
 
 ### Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=dhanushk-offl/guro&type=Date)](https://star-history.com/#dhanushk-offl/guro&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=d5v7/guro&type=Date)](https://star-history.com/#d5v7/guro&Date)
 
 ---
 

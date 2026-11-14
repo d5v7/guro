@@ -76,8 +76,8 @@ all = [
 ]
 
 [project.urls]
-"Bug Reports" = "https://github.com/dhanushk-offl/guro/issues"
-"Source" = "https://github.com/dhanushk-offl/guro"
+"Bug Reports" = "https://github.com/d5v7/guro/issues"
+"Source" = "https://github.com/d5v7/guro"
 "Documentation" = "https://guro.pages.dev/"
 "Homepage" = "https://guro.pages.dev/"
 

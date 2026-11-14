@@ -8,7 +8,7 @@ Use Python 3.9 or later. Package metadata and dependency groups live in `pyproje
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/dhanushk-offl/guro.git
+   git clone https://github.com/d5v7/guro.git
    cd guro
    ```
 

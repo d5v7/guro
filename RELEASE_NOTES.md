@@ -1,5 +1,15 @@
 # Guro Release Notes 🚀
 
+## v1.1.8 — GitHub username update
+
+- Update GitHub links and repository metadata to use the new username, `d5v7`.
+
+### Upgrade and compatibility notes
+
+Upgrade with `pip install --upgrade guro==1.1.8`.
+
+**Full changelog:** https://github.com/d5v7/guro/compare/v1.1.7...v1.1.8
+
 ## v1.1.7 — Trustworthy telemetry, bounded benchmarks, and diagnostics
 
 Released October 21, 2026. Requires Python 3.9 or later.
@@ -65,9 +75,9 @@ pipx upgrade guro
 
 - Automated checks cover measurement precedence, unavailable sensors, GPU parsing, bounded workloads, cancellation, usage errors, stream separation, streaming exports, dependency manifests, and release metadata.
 - CI and clean installation checks passed across the supported Python matrix and Windows/macOS jobs; Snyk and CodeQL checks passed for the implementation. Physical GPU/driver coverage remains dependent on available hardware.
-- Local Linux/Python 3.14 measurements reduced median process-table collection/render time from **51.860 ms to 0.472 ms**, and peak traced Python allocations for 20,000 export rows from **5,717,154 bytes to 270,094 bytes**. These are collector measurements, not hardware performance scores; see [methodology and limits](https://github.com/dhanushk-offl/guro/blob/v1.1.7/docs/PERFORMANCE_REVIEW.md).
+- Local Linux/Python 3.14 measurements reduced median process-table collection/render time from **51.860 ms to 0.472 ms**, and peak traced Python allocations for 20,000 export rows from **5,717,154 bytes to 270,094 bytes**. These are collector measurements, not hardware performance scores; see [methodology and limits](https://github.com/d5v7/guro/blob/v1.1.7/docs/PERFORMANCE_REVIEW.md).
 
-**Full changelog:** https://github.com/dhanushk-offl/guro/compare/v1.1.6...v1.1.7
+**Full changelog:** https://github.com/d5v7/guro/compare/v1.1.6...v1.1.7
 
 ## Historical draft — Network Intelligence (previously labeled v1.2.0)
 *June 15, 2026*
