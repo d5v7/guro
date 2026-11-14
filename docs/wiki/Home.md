@@ -22,8 +22,8 @@ See the repository [README](../../README.md#structured-output-and-exports) for c
 ## Project Links
 
 - **Website**: [guro.pages.dev](https://guro.pages.dev/)
-- **Source Code**: [github.com/dhanushk-offl/guro](https://github.com/dhanushk-offl/guro)
-- **Issue Tracker**: [github.com/dhanushk-offl/guro/issues](https://github.com/dhanushk-offl/guro/issues)
+- **Source Code**: [github.com/d5v7/guro](https://github.com/d5v7/guro)
+- **Issue Tracker**: [github.com/d5v7/guro/issues](https://github.com/d5v7/guro/issues)
 
 ## Project Vision
 

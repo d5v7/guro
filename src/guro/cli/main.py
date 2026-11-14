@@ -348,7 +348,7 @@ def about():
 • 🌡️ Hardware Heatmap Analysis (Hottest component tracking)
 • [NET] Real-time network monitoring (bandwidth, connections, protocols)
 
-[blue]GitHub:[/blue] https://github.com/dhanushk-offl/guro
+[blue]GitHub:[/blue] https://github.com/d5v7/guro
 [blue]Website:[/blue] https://guro.pages.dev/
 [blue]Documentation:[/blue] https://guro.pages.dev/"""
 

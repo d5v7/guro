@@ -17,9 +17,9 @@
   <ul class="nav-links">
     <li><a href="docs.html">Docs</a></li>
     <li><a href="faq.html">FAQ</a></li>
-    <li><a href="https://github.com/dhanushk-offl/guro" target="_blank">GitHub</a></li>
+    <li><a href="https://github.com/d5v7/guro" target="_blank">GitHub</a></li>
   </ul>
-  <a href="https://github.com/dhanushk-offl/guro" target="_blank" class="nav-cta">GitHub ↗</a>
+  <a href="https://github.com/d5v7/guro" target="_blank" class="nav-cta">GitHub ↗</a>
 </nav>
 
 <section class="hero">
@@ -35,7 +35,7 @@
       </p>
       <div class="hero-actions">
         <a href="#install"><button class="btn btn-primary">pip install guro</button></a>
-        <a href="https://github.com/dhanushk-offl/guro" target="_blank"><button class="btn btn-ghost">View on GitHub</button></a>
+        <a href="https://github.com/d5v7/guro" target="_blank"><button class="btn btn-ghost">View on GitHub</button></a>
       </div>
       <div class="hero-stats">
         <div class="stat">
@@ -347,11 +347,11 @@
 </section>
 
 <footer>
-  <span>Built by <a href="https://github.com/dhanushk-offl">Dhanush Kandhan</a> &middot; MIT License</span>
+  <span>Built by <a href="https://github.com/d5v7">Dhanush Kandhan</a> &middot; MIT License</span>
   <div class="footer-links">
     <a href="docs.html">Docs</a>
     <a href="faq.html">FAQ</a>
-    <a href="https://github.com/dhanushk-offl/guro">GitHub</a>
+    <a href="https://github.com/d5v7/guro">GitHub</a>
     <a href="https://pypi.org/project/guro/">PyPI</a>
   </div>
 </footer>
@@ -368,7 +368,7 @@ function setEl(id, val) { const el = document.getElementById(id); if (el) { el.t
 async function loadStats() {
   const load = async (url, opts) => { try { const r = await fetch(url, opts); return r.ok ? r : null; } catch { return null; } };
 
-  const ghRes = await load('https://api.github.com/repos/dhanushk-offl/guro', { headers: { 'Accept': 'application/vnd.github.v3+json' } });
+  const ghRes = await load('https://api.github.com/repos/d5v7/guro', { headers: { 'Accept': 'application/vnd.github.v3+json' } });
   if (ghRes) { try { const gh = await ghRes.json(); const s = fmt(gh.stargazers_count); setEl('stat-stars', s); setEl('ss-stars', s); } catch {} }
 
   const pypiRes = await load('https://pypi.org/pypi/guro/json');

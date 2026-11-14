@@ -17,7 +17,13 @@ jobs:
       matrix:
         python-version: ["3.9", "3.10", "3.11", "3.12", "3.13", "3.14"]
         os: [ubuntu-latest]
+        exclude:
+          - os: ubuntu-latest
+            python-version: "3.9"
         include:
+          # Python 3.9 is not available for the Ubuntu 26.04 runner image.
+          - os: ubuntu-24.04
+            python-version: "3.9"
           - os: windows-latest
             python-version: "3.12"
           - os: macos-latest
